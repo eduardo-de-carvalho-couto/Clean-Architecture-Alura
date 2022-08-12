@@ -1,0 +1,1 @@
+{"version":1,"defects":[],"times":{"Alura\\Arquitetura\\Tests\\CpfTest::testCpfComNumeroNoFormatoInvalidoNaoDevePoderExistir":0.002,"Alura\\Arquitetura\\Tests\\CpfTest::testCpfDevePoderSerRepresentadoComoString":0}}
