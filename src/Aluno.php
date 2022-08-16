@@ -9,6 +9,11 @@ class Aluno
     private Email $email;
     private Array $telefones;
 
+    public static function comCpfNomeEEMail(string $cpf, string $nome, string $email): self
+    {
+        return new Aluno(new Cpf($cpf), $nome, new Email($email));
+    }
+
     public function __construct(Cpf $cpf, string $nome, Email $email)
     {
         $this->cpf = $cpf;
